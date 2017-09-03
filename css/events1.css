@@ -1,0 +1,227 @@
+@charset "utf-8";
+.col-menu,
+body,
+html {
+    height: 100%
+}
+.col-content a.navbar-call,
+.col-menu,
+.title-festival,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active {
+    display: none
+}
+body {
+    margin: 0;
+    background: #E0E0E0
+}
+.col-menu {
+    background: #fff
+}
+.col-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 64px
+}
+.navbar-fixed-top.navbar {
+    background: #eee;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3)
+}
+.navbar-fixed-top.navbar .navbar-header {
+    background: #ff4a00;
+    height: 56px
+}
+.navbar-back {
+    float: left;
+    position: relative;
+    width: 80px
+}
+.navbar-back img {
+    margin: 20px 55px 20px 10px
+}
+.navbar-toggle {
+    padding: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-right: 5px
+}
+.navbar-call {
+    float: right;
+    padding: 17px 10px;
+    margin-right: 5px
+}
+a:active,
+a:focus,
+a:hover,
+a:visited,
+ul.nav.nav-pills.navbar-nav.nav-stacked a {
+    color: #000;
+    outline: 0
+}
+.title,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active a,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active a:active,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active a:focus,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active a:hover,
+ul.nav.nav-pills.navbar-nav.nav-stacked li.active a:visited {
+    color: #fff
+}
+.navbar-nav>li>a.menu-active {
+    background: #ccc
+}
+.tab-pane.fade .row,
+button.navbar-toggle span.icon-bar {
+    background: #fff
+}
+.navbar-header a.navbar-back {
+    line-height: 15px
+}
+ul.nav.nav-pills.navbar-nav.nav-stacked li a img.img-circle {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #fff
+}
+.search,
+.search-input {
+    width: 100%;
+    border-radius: 8px
+}
+ul.nav.nav-pills.navbar-nav.nav-stacked li a {
+    padding-bottom: 5px;
+    padding-top: 5px
+}
+.row img.img-circle {
+    float: left;
+    margin: 10px
+}
+.search,
+.title {
+    position: fixed;
+    right: 0
+}
+.search {
+    bottom: 0
+}
+.title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    top: 0;
+    left: 30px;
+    right: 91px;
+    z-index: 1050;
+    line-height: 100%;
+    font-size: large
+}
+.title img {
+    vertical-align: top
+}
+.send img {
+    margin: 15px
+}
+.search-input {
+    font-size: larger;
+    padding: 10px 10px 10px 45px;
+    border: 2px solid #d9d9d9
+}
+.search-input:focus {
+    outline: 0
+}
+.send {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #00897B
+}
+.title img.img-circle {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px
+}
+.chat {
+    position: fixed;
+    top: 56px;
+    bottom: 60px;
+    width: 100%;
+    padding: 0 10px;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+.emoticon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px
+}
+.message-in,
+.message-in-img,
+.message-out,
+.message-out-img {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 80%;
+    min-width: 40px;
+    margin: 5px;
+    padding: 5px;
+    clear: both
+}
+.message-out,
+.message-out-img {
+    float: right;
+    background: #ffffbe
+}
+.dp-phone,
+.message-in,
+.message-in-img,
+.search-box {
+    float: left
+}
+.message-in-img img,
+.message-out-img img {
+    max-width: 100%
+}
+span.online {
+    font-size: small
+}
+.message-in+.message-in,
+.message-in+.message-in-img,
+.message-in-img+.message-in,
+.message-out+.message-out,
+.message-out+.message-out-img,
+.message-out-img+.message-out {
+    margin-top: 0
+}
+.dp-phone {
+    display: block
+}
+.dp-desktop {
+    display: none;
+    float: left
+}
+.col-title a,
+.col-title a:active,
+.col-title a:hover,
+.col-title a:visited {
+    color: #fff;
+    text-decoration: none
+}
+.search-box {
+    width: calc(100% - 60px);
+    padding: 6px 5px 7px
+}
+.send-box {
+    float: right;
+    padding: 5px 10px 5px 0
+}
+.title div span {
+    display: block;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}

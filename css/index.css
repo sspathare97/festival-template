@@ -1,0 +1,219 @@
+.ty h1 {
+    font-size: 40px;
+    text-shadow: 0 0 32px #00ffff, 0 0 58px #00ffff, 0 0 62px #00ffff, 0 0 80px #00ffff;
+}
+.ty {
+    position: fixed;
+    bottom: 50%;
+    left: 20px;
+    right: 20px;
+}
+.bottom-left,
+.top-left {
+    left: 0;
+    width: 50%
+}
+body,
+html {
+    height: 100%
+}
+h1,
+h3 {
+    text-align: center;
+    color: #fff
+}
+.bottom-right,
+.top-right {
+    right: 0;
+    width: 50%
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #000;
+    outline: 0
+}
+h1 a,
+h1 a:active,
+h1 a:focus,
+h1 a:hover,
+h1 a:visited {
+    color: #fff;
+    outline: 0
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    background: url(../images/bgphone.jpg) fixed;
+    background-size: cover
+}
+h1 {
+    font-size: 24px;
+    margin-top: 10px
+}
+h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 1px 2px #000, 0 -1px 2px #000, 1px 0 2px #000, -1px 0 2px #000
+}
+h1 img {
+    height: 60px
+}
+.div-hover h3 {
+    display: none
+}
+img {
+    margin: auto
+}
+.div-hover {
+    background-color: #fff;
+    padding: 2px;
+    margin: 0 0 10px;
+    color: #000;
+    text-align: justify;
+    -webkit-transition: background-color .3s, border-color .3s, box-shadow .3s;
+    -moz-transition: background-color .3s, border-color .3s, box-shadow .3s;
+    -o-transition: background-color .3s, border-color .3s, box-shadow .3s;
+    transition: background-color .3s, border-color .3s, box-shadow .3s
+}
+.div-hover img {
+    padding: 4px;
+    display: block;
+    -webkit-transition: padding .3s, margin-bottom .3s;
+    -moz-transition: padding .3s, margin-bottom .3s;
+    -o-transition: padding .3s, margin-bottom .3s;
+    transition: padding .3s, margin-bottom .3s
+}
+.div-hover:hover img {
+    padding: 1px;
+    margin-bottom: 1px
+}
+.div-hover:hover {
+    background-color: #ffffbe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19)
+}
+.bottom-left,
+.bottom-right,
+.top-left,
+.top-right {
+    position: fixed;
+    padding: 10px
+}
+.top-left .div-hover {
+    float: right
+}
+.top-right .div-hover {
+    float: left
+}
+.bottom-left .div-hover {
+    float: right
+}
+.bottom-right .div-hover {
+    float: left
+}
+.top-left,
+.top-right {
+    bottom: calc(50% - 8px)
+}
+.bottom-left,
+.bottom-right {
+    height: calc(50% - 48px);
+    bottom: 40px
+}
+.div-hover,
+.div-hover img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%
+}
+.top-left .div-hover,
+.top-right .div-hover {
+    bottom: 0;
+    width: auto
+}
+a.archived,
+a:visited.archived,
+a:active.archived,
+a:hover.archived {
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    display: block;
+}
+a:hover.archived {
+    text-decoration: underline;
+}
+@media (min-width: 600px) {
+    body {
+        background: url(../images/bgdesktop.jpg) fixed;
+        background-size: cover
+    }
+    .top-left,
+    .top-right {
+        top: 69px;
+        height: calc(50% - 35px)
+    }
+    .bottom-left,
+    .bottom-right {
+        height: calc(50% - 35px);
+        bottom: 0
+    }
+    .div-hover h3 {
+        display: block;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        font-size: 24px;
+        text-align: center
+    }
+    h1 {
+        font-size: 36px
+    }
+    h1 img {
+        height: 65px
+    }
+    h3.phone {
+        display: none
+    }
+    .div-hover {
+        width: auto;
+        height: 85%;
+        padding: 4px;
+        margin: 0
+    }
+    .div-hover img {
+        width: auto;
+        height: 100%
+    }
+    .top-left .div-hover,
+    .top-right .div-hover {
+        position: static;
+        bottom: 0
+    }
+    .bottom-left,
+    .bottom-right,
+    .top-left,
+    .top-right {
+        padding-bottom: 10px
+    }
+}
+@media (min-width: 760px) {
+    .bottom-left,
+    .bottom-right,
+    .top-left,
+    .top-right {
+        padding-right: 40px
+    }
+    .ty h1 {
+        font-size: 50px;
+        text-shadow: 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+    }
+}

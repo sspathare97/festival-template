@@ -1,0 +1,136 @@
+body,
+html {
+    height: 100%
+}
+body {
+    margin: 0
+}
+.navbar-fixed-top.navbar {
+    background: #eee;
+    color: #fff;
+    border: none
+}
+.navbar-fixed-top.navbar .navbar-header {
+    background: #ff4a00;
+    font-size: large;
+    height: 56px
+}
+#myNavbar {
+    background: #eee
+}
+.navbar-header div {
+    float: left;
+    width: calc(100% - 80px);
+    margin: 15px
+}
+.navbar-toggle {
+    padding: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-right: 5px
+}
+ul a,
+ul a:active,
+ul a:focus,
+ul a:hover,
+ul a:visited {
+    color: #000;
+    outline: 0
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    outline: 0
+}
+.navbar-nav>li>a.menu-active {
+    background: #ccc
+}
+.navbar-toggle .icon-bar {
+    background: #fff
+}
+.navbar-header a.navbar-back {
+    line-height: 15px
+}
+ul.nav.nav-pills.navbar-nav.nav-stacked li a .img-circle {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #fff
+}
+.row.nav-buttons,
+.row.title {
+    background: #ff4a00;
+    color: #fff
+}
+ul.nav.nav-pills.navbar-nav.nav-stacked li a {
+    padding-bottom: 5px;
+    padding-top: 5px
+}
+.row.title {
+    height: 56px;
+    font-size: large;
+    padding: 15px 14px
+}
+.row.nav-buttons {
+    z-index: -1;
+    position: fixed;
+    top: 55px;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    box-shadow: 0 1px 6px #bbb
+}
+.row.nav-buttons .col-xs-12 {
+    padding: 12px 0;
+    border-bottom: 2px solid #ff4a00
+}
+.row.nav-buttons .col-xs-12.events {
+    border-bottom: 2px solid #fff
+}
+.col-chats {
+    margin-top: 100px
+}
+.col-chats ul {
+    padding: 0;
+    margin: 0
+}
+.col-chats li {
+    width: 100%
+}
+ul li img.img-circle {
+    width: 50px;
+    height: 50px;
+    vertical-align: top
+}
+.chat-title {
+    float: right;
+    height: 72px;
+    text-align: left;
+    width: calc(100% - 90px);
+    padding: 15px 0;
+    margin-right: 10px;
+    font-size: larger
+}
+.col-chats ul li img {
+    margin: 11px 15px
+}
+ul li:first-child .chat-title {
+    border-top: transparent solid 1px
+}
+ul li:last-child .chat-title {
+    border-bottom: #e9ebeb solid 1px
+}
+ul a:active li {
+    background: #f2f2f2
+}
+.col-xs-4 a,
+.col-xs-4 a:active,
+.col-xs-4 a:hover,
+.col-xs-4 a:visited {
+    color: #fff;
+    text-decoration: none
+}
